@@ -1,0 +1,14 @@
+{
+	"name": "eslint-plugin-svg-import-helper",
+	"version": "1.0.1",
+	"description": "Plugin for eslint that checks if you import svg incorrect",
+	"main": "index.js",
+	"repository": "mkupriichuk/eslint-plugin-svg-import-helper",
+	"homepage": "https://github.com/mkupriichuk/eslint-plugin-svg-import-helper#readme",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": ["eslint", "svg import"],
+	"author": "Maksym Kupriichuk",
+	"license": "ISC"
+}
