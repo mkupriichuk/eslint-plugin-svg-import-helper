@@ -26,13 +26,13 @@ Update eslint config
 ],
 "rules": {
 	...
-	"svg-import-helper/svg-import": "warn"
+	"svg-import-helper/correct-import": "warn"
 }
 ```
 
 ## What you need for linter works
 
-modify webpack config. `svg?url` imported like url, `svg` with `@svgr/webpack`:
+Modify webpack config. `svg?url` imported like url, `svg` with `@svgr/webpack`:
 
 ```js
 			{
