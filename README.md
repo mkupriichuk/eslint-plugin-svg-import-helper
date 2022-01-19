@@ -61,6 +61,20 @@ Modify webpack config. `svg?url` imported like url, `svg` with `@svgr/webpack`:
 			},
 ```
 
+If you use typescript declare `svg?url` like this:
+
+```
+declare module "*.svg" {
+	const content: React.FunctionComponent<React.SVGAttributes<SVGAElement>>;
+	export default content;
+}
+
+declare module "*.svg?url" {
+	const path: string;
+	export default path;
+}
+```
+
 ## Example
 
 ```js
