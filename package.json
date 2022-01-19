@@ -1,6 +1,6 @@
 {
 	"name": "eslint-plugin-svg-import-helper",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Plugin for eslint that checks if you import svg incorrect",
 	"main": "index.js",
 	"repository": "mkupriichuk/eslint-plugin-svg-import-helper",
